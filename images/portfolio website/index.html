@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Personal Portfolio Website Design </title>
+
+        <!--box icons-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'  rel='stylesheet'>
+
+
+
+        <!--custom css-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--header design-->
+        <header class="header">
+            <a href="#" class="logo">portfolio</a>
+
+            <i class='bx bx-menu' id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>    
+            </nav>
+        </header>
+
+
+      <!--- home section desgin -->
+      <section  class="home" id="home">
+        <div class="home-content">
+            <h3>hello it's Me</h3>
+            <h1>Laxmi Pal</h1>
+            <h3>Actively looking for internship opportunities to apply my skills and gain industry experience for  <span class="multiple-text"></span></h3>
+           
+                <div class="social-media">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                </div>
+                <a href="LaxmiPal_Resume" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/about.png" alt="" >
+        </div>
+      </section>
+    
+
+    <!--  about section design-->
+      <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/home.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+           
+            <p> I'm Laxmi Pal, a BCA graduate currently focused on learning python programming. I enjoy solving problems,
+                writing clean code, and preparing for software development roles.
+                 I'm passionate about growing my skills and contributing to real-world projects.</p>
+                <a href="#" class="btn">Read More</a>
+        </div>
+
+      </section>
+
+      <!--Services section desgin -->
+      <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Frontend Basics</h3>
+                <p>Creating simple, responsive web pages using HTML and CSS.
+                    I enjoy desinging clean layouts for personal and academic projects.
+                </p>
+                  <!--  <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Python Programming</h3>
+                <p>Writing clean, efficient, and beginner-friendly Python code. I can slove basic to intermediate problems 
+                    and build simple scripts or applications  </p>
+                   <!--- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Continuous Learning</h3>
+                <p>Passionate about learning and growing in the tech field.
+                    Currently focused on improving my Python skills and working on small projects.
+                </p>
+                 <!--- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+        </div>
+      </section>
+
+      <!--portfolio section desgin-->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/port1.jpeg" alt="" height="500" width="800">
+                <div class="portfolio-layer">
+                <h4>Car Selling Website </h4>
+                <p>A responsive car selling website using HTML, CSS and PHP.
+                    Users can check price, book inspections, and admin gets WhatsApp notifications.
+                </p>
+                <a href="CarSellingWebsite.zip" download><i class='bx bx-link-external'></i></a>
+                <p>Note: This project requires XAMMP to runs as it inculdes PHP files. 
+                Full instruction  and screenshot  of website are inculded in the Pdf </p>
+                <a href="CarSellingWebsite.pdf"><i class='bxr  bx-folder-open'  ></i> View PDF  </a>
+                </div>
+           </div>
+            
+
+           <div class="portfolio-box">
+            <img src="images/port2.jpeg" alt="" height="500" width="800">
+            <div class="portfolio-layer">
+            <h4>Property Sales Websites</h4>
+            <p> My first web project- a basic property listing sites using HTML, and CSS.
+                It displays property information like name, price, and location in a simple, user-friendly layout.
+            </p>
+            <a href="PropertySalesProject.zip"><i class='bx bx-link-external'></i></a>
+            <p>Note: This project requires XAMMP to runs as it inculdes PHP files. 
+                Full instruction  and screenshot  of website are inculded in the Pdf </p>
+            <a href="PropertySalesProject.pdf"><i class='bxr  bx-folder-open'  ></i> View PDF  </a>
+            </div>
+          </div>
+
+
+      <!--- <div class="portfolio-box">
+        <img src="images/port3.jpeg" alt="" height="500" width="800">
+        <div class="portfolio-layer">
+        <h4>Web Design</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident molestiae beatae praesentium!</p>
+        <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+       </div>
+
+      <div class="portfolio-box">
+    <img src="images/port4.jpeg" alt="" height="500" width="800">
+    <div class="portfolio-layer">
+    <h4>Web Design</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident molestiae beatae praesentium!</p>
+    <a href="#"><i class='bx bx-link-external'></i></a>
+    </div>
+   </div>
+
+   <div class="portfolio-box">
+    <img src="images/port5.jpeg" alt="" height="500" width="800">
+    <div class="portfolio-layer">
+    <h4>Web Design</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident molestiae beatae praesentium!</p>
+    <a href="#"><i class='bx bx-link-external'></i></a>
+    </div>
+   </div>
+
+
+
+   <div class="portfolio-box">
+    <img src="images/port6.jpeg" alt="" height="500" width="800">
+    <div class="portfolio-layer">
+    <h4>Web Design</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident molestiae beatae praesentium!</p>
+    <a href="#"><i class='bx bx-link-external'></i></a>
+    </div>
+   </div>
+-->
+</div> 
+    </section>
+
+
+
+
+    <!--contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span></span></h2>
+        
+
+       <!--- <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea  id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>-->
+
+        <a href="https://forms.gle/7wwLF7yZANAvb1af9" target="_blank">
+           <button style="
+    background: linear-gradient(90deg, #00ffe7, #00bfff);
+    color: #000;
+    padding: 16px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    align-items: center;
+  " 
+  onmouseover="this.style.transform='scale(1.05)'" 
+  onmouseout="this.style.transform='scale(1)'"> Contact Me</button>
+
+        </a>
+
+    </section>
+
+      <!--footer design-->
+      <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Codehal | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+      </footer>
+
+      <!--scroll reveal-->
+      <script src="https://unpkg.com/scrollreveal"></script>
+
+      <!--typed js -->
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+         <script src="js/script.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laxmi Pal | Personal Portfolio</title>
+
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--header design-->
+    <header class="header">
+        <a href="#" class="logo">portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#internship">Internship</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Project</a>
+            <a href="#certificate">Certificate</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!--- home section desgin -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm Laxmi Pal</h1>
+            <h3>Full Stack Developer Intern</h3>
+            <h2>I build responsive, database-driven website using PHP, CodeIgniter, MySQL, JavaScript and modern web
+                technologies.
+                <span class="multiple-text"></span>
+            </h2>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href=""><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="Laxmi Resume.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/about1.png" alt="">
+        </div>
+    </section>
+
+
+    <!--  about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about1.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+
+            <p>
+
+                I’m a BCA graduate and Full Stack Developer Intern at Webchiper Technology, passionate about building
+                responsive and practical web applications.
+
+                I have hands-on experience working with PHP frameworks, MySQL, frontend technologies and database-driven
+                applications. I have developed projects using CodeIgniter and am currently working with Laravel to build
+                scalable web applications.
+
+                I enjoy turning ideas into functional web solutions while continuously improving my development,
+                problem-solving and software engineering skills.
+
+            </p>
+            <a href="Laxmi Resume.pdf" class="btn">Read More</a>
+        </div>
+
+    </section>
+
+    <!-- Professional Experience -->
+    <section class="internship" id="internship">
+
+        <h2 class="heading">Professional <span>Experience</span></h2>
+        <br><br><br>
+
+        <div class="services-container">
+
+            <!-- Current Role -->
+            <div class="services-box">
+
+                <i class='bx bx-code-alt'></i>
+
+                <h3>Full Stack Developer Intern</h3>
+
+                <h4>Webchiper Technology | 2026 – Present</h4>
+
+                <p>
+                    Working on full-stack web applications using PHP,
+                    CodeIgniter, MySQL, JavaScript, HTML and CSS.
+                    Developing database-driven features, CRUD functionality,
+                    responsive interfaces and backend workflows.
+                </p>
+
+                <button type="button" class="btn" onclick="openExperienceModal()">
+                    View Details
+                </button>
+            </div>
+
+
+            <!-- Previous Experience -->
+            <div class="services-box">
+
+                <i class='bx bx-code'></i>
+
+                <h3>Web Development Intern</h3>
+
+                <h4>GAO Tek Inc. | 2025</h4>
+
+                <p>
+                    Worked on website development and customization using
+                    WordPress. Gained practical experience in website layouts,
+                    Elementor and content management.
+                </p>
+
+                <a href="web deveplomet internship.pdf" class="btn" target="_blank">
+                    View Certificate
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Technical Skills -->
+    <section class="skills" id="skills">
+
+        <h2 class="heading">
+            Technical <span>Skills</span>
+        </h2>
+
+        <p class="skills-intro">
+            Technologies and tools I use to build web applications and digital products.
+        </p>
+
+
+        <div class="skills-list">
+
+
+            <!-- Tools -->
+            <div class="skill-row">
+
+                <div class="skill-category">
+                    <i class='bx bx-wrench'></i>
+                    <h3>Tools & Platforms</h3>
+                </div>
+
+                <div class="skill-tags">
+
+                    <span>
+                        <i class='bx bxl-git'></i>
+                        Git
+                    </span>
+
+                    <span>
+                        <i class='bx bxl-github'></i>
+                        GitHub
+                    </span>
+
+                    <span>
+                        <i class='bx bx-server'></i>
+                        XAMPP
+                    </span>
+
+                    <span>
+                        <i class='bx bx-mobile-alt'></i>
+                        FlutterFlow
+                    </span>
+
+                    <span>
+                        <i class='bx bx-bot'></i>
+                        Stitch AI
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Frontend -->
+            <div class="skill-row">
+
+                <div class="skill-category">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Frontend</h3>
+                </div>
+
+                <div class="skill-tags">
+
+                    <span>
+                        <i class='bx bxl-html5'></i>
+                        HTML5
+                    </span>
+
+                    <span>
+                        <i class='bx bxl-css3'></i>
+                        CSS3
+                    </span>
+
+                    <span>
+                        <i class='bx bxl-javascript'></i>
+                        JavaScript
+                    </span>
+
+                    <span>
+                        <i class='bx bx-devices'></i>
+                        Responsive Design
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+
+            <!-- Backend -->
+            <div class="skill-row">
+
+                <div class="skill-category">
+                    <i class='bx bx-server'></i>
+                    <h3>Backend</h3>
+                </div>
+
+                <div class="skill-tags">
+
+                    <span>
+                        <i class='bx bxl-php'></i>
+                        PHP
+                    </span>
+
+                    <span>
+                        <i class='bx bx-code-block'></i>
+                        CodeIgniter
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Database -->
+            <div class="skill-row">
+
+                <div class="skill-category">
+                    <i class='bx bx-data'></i>
+                    <h3>Database</h3>
+                </div>
+
+                <div class="skill-tags">
+
+                    <span>
+                        <i class='bx bx-data'></i>
+                        MySQL
+                    </span>
+
+                    <span>
+                        <i class='bx bx-cloud'></i>
+                        Firebase
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+    <!-- Projects Section -->
+    <section class="projects" id="project">
+
+        <h2 class="heading">Featured <span>Projects</span></h2>
+
+        <p class="projects-subtitle">
+            A selection of projects I have built using modern web technologies,
+            backend frameworks and development tools.
+        </p>
+
+        <div class="projects-container">
+
+
+            <!-- ================= PROJECT 1 ================= -->
+            <div class="project-card">
+
+                <div class="project-image">
+                    <img src="images/ECommerce.jpg" alt="CodeIgniter 4 Project">
+                </div>
+
+                <div class="project-info">
+
+                    <span class="project-type">FULL STACK APPLICATION</span>
+
+                    <h3>E-commerce Website </h3>
+                    <h4>CodeIginter 4 website</h4>
+
+                    <p>
+                        A database-driven web application developed using
+                        CodeIgniter 4 and PHP with CRUD functionality,
+                        backend workflows and MySQL database integration.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>PHP</span>
+                        <span>CodeIgniter 4</span>
+                        <span>MySQL</span>
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <!-- PUT YOUR REAL GITHUB URL HERE -->
+                        <a href="https://github.com/laxmi-ux/codeigniter4-ecommerce-project" class="project-btn"
+                            target="_blank">
+                            <i class='bx bxl-github'></i>
+                            GitHub
+                        </a>
+
+                        <a href="profile page.pdf" class="project-btn secondary" target="_blank">
+                            <i class='bx bx-link-external'></i>
+                            Screenshots
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= PROJECT 2 ================= -->
+            <div class="project-card">
+
+                <div class="project-image">
+                    <img src="images/venue.png" alt="FlutterFlow Firebase Project">
+                </div>
+
+                <div class="project-info">
+
+                    <span class="project-type">APP DEVELOPMENT</span>
+                    <br>
+
+                    <br>
+
+                    <h3>venue booking app</h3>
+
+                    <h4>
+                        FlutterFlow + Firebase Application</h4>
+
+                    <p>
+                        A mobile application developed using FlutterFlow with
+                        Firebase integration for authentication, database
+                        management and application functionality.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>FlutterFlow</span>
+                        <span>Firebase</span>
+                        <span>UI Design</span>
+                        <span>Database</span>
+                    </div>
+
+                    <div class="project-buttons">
+
+
+
+                        <a href="flutterflow-screenshots.pdf" class="project-btn secondary" target="_blank">
+                            <i class='bx bx-images'></i>
+                            Screenshots
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= PROJECT 3 ================= -->
+            <div class="project-card">
+
+                <div class="project-image">
+                    <img src="images/car.webp" alt="Car Selling Website">
+                </div>
+
+                <div class="project-info">
+
+                    <span class="project-type">WEB APPLICATION</span>
+
+                    <h3>Car Selling Website</h3>
+
+                    <p>
+                        A responsive car selling platform built with PHP, MySQL,
+                        HTML and CSS. Includes vehicle information, inspection
+                        booking and WhatsApp notification functionality.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>XAMPP</span>
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="https://github.com/laxmi-ux/car-selling-website" class="project-btn" target="_blank">
+                            <i class='bx bxl-github'></i>
+                            GitHub
+                        </a>
+
+                        <a href="CarSellingWebsite.zip" class="project-btn" download>
+                            <i class='bx bx-download'></i>
+                            Download
+                        </a>
+
+                        <a href="Car Selling Screenshots.pdf" class="project-btn secondary" target="_blank">
+                            <i class='bx bx-images'></i>
+                            Screenshots
+                        </a>
+
+                        <a href="CarSellingWebsite.pdf" class="project-btn secondary" target="_blank">
+                            <i class='bx bx-file'></i>
+                            Details
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= PROJECT 4 ================= -->
+            <div class="project-card">
+
+                <div class="project-image">
+                    <img src="images/properties.webp" alt="Property Sales Website">
+                </div>
+
+                <div class="project-info">
+
+                    <span class="project-type">WEB DEVELOPMENT</span>
+
+                    <h3>Property Sales Website</h3>
+
+                    <p>
+                        A property listing website designed to display property
+                        information including name, price and location in a
+                        clean and user-friendly interface.
+                    </p>
+                    <br>
+                    <br>
+
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>PHP</span>
+                        <span>XAMPP</span>
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="PropertySalesProject.zip" class="project-btn" download>
+                            <i class='bx bx-download'></i>
+                            Download
+                        </a>
+
+                        <a href="PropertySalesScreenshots.pdf" class="project-btn secondary" target="_blank">
+                            <i class='bx bx-images'></i>
+                            Screenshots
+                        </a>
+
+                        <a href="PropertySalesProject.pdf" class="project-btn secondary" target="_blank">
+                            <i class='bx bx-file'></i>
+                            Details
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <section class="certificate" id="certificate">
+        <h2 class="heading">Python Course <span>Certificate</span></h2>
+        <br>
+        <br>
+
+        <div class="portfolio-container">
+
+            <div class="portfolio-box">
+                <img src="images/python beginner.jpg" alt="100 Days of Python Beginner Certificate">
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/python intermediate.jpg" alt="100 Days of Python Intermediate Certificate">
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/python advanced.jpg" alt="100 Days of Python Advanced Certificate">
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/python expert.jpg" alt="100 Days of Python Expert Certificate">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <br><br>
+
+        <h1 class="contact-text">
+            I am open to entry-level opportunities and collaborations.
+            Feel free to get in touch with me for job opportunities or professional connections.
+        </h1>
+
+        <br>
+
+        <div class="contact-info">
+
+            <h2>
+                📧 Email:
+                <a href="mailto:laxmirpal04@gmail.com">
+                    laxmirpal04@gmail.com
+                </a>
+            </h2>
+
+            <h2>
+                📱 Phone:
+                <a href="tel:+918669172056">
+                    +91 8669172056
+                </a>
+            </h2>
+
+            <h2>
+                🔗 LinkedIn:
+                <a href="https://www.linkedin.com/in/laxmi-pal-13a738267/" target="_blank">
+                    linkedin.com/in/laxmi-pal-13a738267
+                </a>
+            </h2>
+
+            <h2>
+                💻 GitHub:
+                <a href="https://github.com/laxmi-ux" target="_blank">
+                    github.com
+                </a>
+            </h2>
+
+        </div>
+
+        <br><br>
+
+        <a href="https://forms.gle/7wwLF7yZANAvb1af9" target="_blank" class="btn">
+            Contact Me
+        </a>
+
+    </section>
+    <!--- <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea  id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>-->
+
+    <!-- <a href="https://forms.gle/7wwLF7yZANAvb1af9" target="_blank">
+        <button style="
+    background: linear-gradient(90deg, #00ffe7, #00bfff);
+    color: #000;
+    padding: 16px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    align-items: center;
+  " onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"> Contact Me</button>
+
+    </a> -->
+
+    </section>
+
+    <!--footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Codehal | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="js/script.js"></script>
+
+
+
+    <!-- Webchiper Experience Modal -->
+
+    <div class="experience-modal" id="experienceModal">
+
+        <div class="experience-modal-content">
+
+            <button class="modal-close" onclick="closeExperienceModal()">
+                &times;
+            </button>
+
+            <span class="modal-label">CURRENT EXPERIENCE</span>
+
+            <h2>Full Stack Developer Intern</h2>
+
+            <h3>Webchiper Technology</h3>
+
+            <p class="modal-duration">
+                2026 – Present
+            </p>
+
+            <div class="modal-divider"></div>
+
+            <h4>About My Role</h4>
+
+            <p>
+                Working as a Full Stack Developer Intern at Webchiper
+                Technology, contributing to web application development
+                and gaining practical experience across frontend and
+                backend development.
+            </p>
+
+            <h4>Technologies</h4>
+
+            <div class="modal-tech">
+                <span>PHP</span>
+                <span>CodeIgniter</span>
+                <span>MySQL</span>
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
+
+            <h4>What I Work On</h4>
+
+            <ul>
+                <li>Developing database-driven web application features.</li>
+                <li>Working with PHP and CodeIgniter.</li>
+                <li>Working with MySQL databases.</li>
+                <li>Implementing CRUD functionality.</li>
+                <li>Developing responsive interfaces using HTML, CSS and JavaScript.</li>
+                <li>Debugging and improving application functionality.</li>
+            </ul>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
