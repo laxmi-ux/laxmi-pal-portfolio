@@ -61,7 +61,7 @@ A web-based car selling platform developed using HTML, CSS, PHP, and MySQL.
 ## 📫 Contact
 
 * LinkedIn: [Laxmi Pal](https://www.linkedin.com/in/laxmi-pal-13a738267)
-* Portfolio: [https://laxmirpal1.netlify.app/)
+* Portfolio: https://laxmirpal1.netlify.app/
 
 ---
 
